@@ -1,0 +1,12 @@
+Source: ros-noetic-boxer-desktop
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/boxer_desktop
+Standards-Version: 3.9.2
+
+Package: ros-noetic-boxer-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-boxer-msgs, ros-noetic-boxer-viz
+Description: Packages for working with BOXER from a ROS desktop.
